@@ -19,7 +19,7 @@ namespace API.Controllers
 
         /// <summary>
         /// Returns all tasks from the database.
-        /// </summary
+        /// </summary>
         [HttpGet]
         [Route("GetList")]
         public async Task<IActionResult> GetAsync(
